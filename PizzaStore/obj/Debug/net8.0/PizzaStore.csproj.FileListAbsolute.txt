@@ -24,3 +24,10 @@
 /workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.pdb
 /workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.genruntimeconfig.cache
 /workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/ref/PizzaStore.dll
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.csproj.AssemblyReference.cache
+/workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.csproj.Up2Date
