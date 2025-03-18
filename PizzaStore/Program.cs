@@ -2,6 +2,7 @@ using Microsoft.OpenApi.Models;
 using PizzaStore.DB;
 using Microsoft.EntityFrameworkCore;
 using PizzaStore.Models;
+using Microsoft.AspNetCore.Rewrite;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("Pizzas") ?? "Data Source=Pizzas.db";
@@ -23,8 +24,10 @@ if (app.Environment.IsDevelopment())
       c.SwaggerEndpoint("/swagger/v1/swagger.json", "PizzaStore API V1");
    });
 }
-    
+
+app.UseRewriter(new RewriteOptions().AddRedirect("history", "about"));
 app.MapGet("/", () => "Hello World!");
+app.MapGet("/about", () => "Contoso was founded in 2005.");
 
 #region in memory cache as database
 /*
