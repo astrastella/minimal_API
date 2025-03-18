@@ -31,3 +31,6 @@
 /workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.csproj.AssemblyReference.cache
 /workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.MvcApplicationPartsAssemblyInfo.cs
 /workspaces/minimal_API/PizzaStore/obj/Debug/net8.0/PizzaStore.csproj.Up2Date
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/workspaces/minimal_API/PizzaStore/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
